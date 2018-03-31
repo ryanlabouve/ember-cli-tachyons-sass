@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-tachyons-4",
+  "name": "ember-cli-tachyons-sass",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -20,7 +20,8 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.6.0"
+    "ember-cli-babel": "^6.6.0",
+    "ember-cli-sass": "^7.1.7"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -31,7 +32,9 @@
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-o": "0.0.2",
     "ember-cli-qunit": "^4.1.1",
+    "ember-cli-randoport": "^1.0.1",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
@@ -45,7 +48,8 @@
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^5.2.1",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "tachyons-sass": "^4.9.2"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"

@@ -1,29 +1,36 @@
-ember-cli-tachyons-4
-==============================================================================
+# ember-cli-tachyons-sass
 
-[Short description of the addon.]
+Installs [tachyons](https://tachyons.io/), but the [SASS version](https://github.com/tachyons-css/tachyons-sass) with easy theming.
 
-Installation
-------------------------------------------------------------------------------
+## Installation
 
 ```
-ember install ember-cli-tachyons-4
+ember install ember-cli-tachyons-sass
 ```
 
+## Usage
 
-Usage
-------------------------------------------------------------------------------
+Make sure you have [ember-cli-sass](https://github.com/aexmachina/ember-cli-sass) installed and setup first.
 
-[Longer description of how to use the addon in apps.]
+Then import `ember-cli-tachyons-sass` and over-ride any variables
+for theming:
 
+```sass
+// Override any variables for theming: https://github.com/tachyons-css/tachyons-sass/blob/master/scss/_variables.scss
+$font-size-headline: 9rem;
 
-Contributing
-------------------------------------------------------------------------------
+// Import ember-cli-tachyons-sass to your project
+@import 'ember-cli-tachyons-sass';
+```
+
+## Contributing
+
+Just make an issue and let's start a conversation!
 
 ### Installation
 
 * `git clone <repository-url>`
-* `cd ember-cli-tachyons-4`
+* `cd ember-cli-tachyons-sass`
 * `npm install`
 
 ### Linting
@@ -40,11 +47,10 @@ Contributing
 ### Running the dummy application
 
 * `ember serve`
-* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
+* Visit the dummy application at by running `ember o`
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
-License
-------------------------------------------------------------------------------
+## License
 
 This project is licensed under the [MIT License](LICENSE.md).
