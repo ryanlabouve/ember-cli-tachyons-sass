@@ -23,6 +23,19 @@ $font-size-headline: 9rem;
 @import 'ember-cli-tachyons-sass';
 ```
 
+### Other cool things
+
+This also means it's easy for us to add things to the `*-ns` media-query space.
+
+```
+@media #{$breakpoint-not-small} {
+  // This will be red on all "not small" devices
+  .red-ns {
+    color: red;
+  }
+}
+```
+
 ## Contributing
 
 Just make an issue and let's start a conversation!
