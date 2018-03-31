@@ -1,20 +1,19 @@
 {
   "name": "ember-cli-tachyons-sass",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
-  "keywords": [
-    "ember-addon"
-  ],
+  "description": "A themable SASS version of tachyons",
+  "keywords": ["ember-addon", "sass", "css"],
   "license": "MIT",
-  "author": "",
+  "author": "@ryanlabouve",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/ryanlabouve/ember-cli-tachyons-sass",
   "scripts": {
     "build": "ember build",
-    "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
+    "lint:js":
+      "eslint ./*.js addon addon-test-support app config lib server test-support tests",
     "start": "ember serve",
     "test": "ember test",
     "test:all": "ember try:each"
